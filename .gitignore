@@ -1,0 +1,11 @@
+jai baabe ki jai maata di 
+first.txt
+
+git rm --cached 'file_name'
+rm -rf .git
+git checkout -- 'file_name' ==> isse before change waali condition par pahunch jaegi file .
+git checkout -f ==> isse saari file apne before change waali condition par chali jaegi, but the condition is wo stage na huyi ho .
+git restore 'file_name' ==> to back to previous change , but file should not be commited .
+git push -d origin 'branch_name'==> this will delete the branch from githubrepo.
+git pull origin 'branch_name' => to fetch and merge the data change by another user .
+git fetch --all => we get all branches too from repo to our local git
